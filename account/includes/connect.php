@@ -1,8 +1,8 @@
 <?php
 session_start();
-$servername = "127.0.0.1";
-$server_user = "root";
-$server_pass = "";
+$servername = "project2db.ch4mayomqklk.us-east-1.rds.amazonaws.com";
+$server_user = "master";
+$server_pass = "master123";
 $dbname = "food";
 $name = $_SESSION['name'];
 $role = $_SESSION['role'];
