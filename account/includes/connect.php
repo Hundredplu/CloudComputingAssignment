@@ -1,6 +1,6 @@
 <?php
 session_start();
-$servername = "awsdatabase.c7a0a8kcih2s.us-east-1.rds.amazonaws.com";
+$servername = "clouddatabase.cxiuezajhedf.us-east-1.rds.amazonaws.com";
 $server_user = "master";
 $server_pass = "master123";
 $dbname = "food";
